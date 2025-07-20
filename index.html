@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.565, maximum-scale=0.565">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="estilo_index.css">
+	<script src="index.js"></script>
+</head>
+<body>
+
+	<div id="div_principal">		
+
+		<form id="formulario">
+			
+			<fieldset>
+				<legend>Modalidad de juego, fichas: </legend>
+				<label>
+					<input type="radio" id="modalidad_fijas" name="modalidad_de_juego" value="fijas" checked> Fijas
+				</label>
+				<label>
+					<input type="radio" id="modalidad_movibles" name="modalidad_de_juego" value="movibles"> Movibles
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Humano contra: </legend>
+				<label>
+					<input type="radio" id="humano_contra_maquina" name="humano_contra" value="maquina" checked> Máquina
+				</label>
+				<label>
+					<input type="radio" id="humano_contra_humano" name="humano_contra" value="humano"> Humano
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Quien empieza: </legend>
+				<label>
+					<input type="radio" id="quien_empieza_maquina" name="quien_empieza_maquina_o_humano" value="maquina" checked> Máquina
+				</label>
+				<label>
+					<input type="radio" id="quien_empieza_humano" name="quien_empieza_maquina_o_humano" value="humano"> Humano
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Quien empieza: </legend>
+				<label>
+					<input type="radio" id="quien_empieza_equis" name="quien_empieza_equis_o_circulos" value="equis" checked> Las Equis
+				</label>
+				<label>
+					<input type="radio" id="quien_empieza_circulos" name="quien_empieza_equis_o_circulos" value="circulos"> Los circulos
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Escoge nivel de dificultad del 0 al 4:</legend>
+				<label>
+					<input type="radio" id="valor_0" name="nivel_de_dificultad" value="0"> Cero
+				</label>
+				<label>
+					<input type="radio" id="valor_1" name="nivel_de_dificultad" value="1"> Uno
+				</label>
+				<label>
+					<input type="radio" id="valor_2" name="nivel_de_dificultad" value="2"> Dos
+				</label>
+				<label>
+					<input type="radio" id="valor_3" name="nivel_de_dificultad" value="3"> Tres
+				</label>
+				<label>
+					<input type="radio" id="valor_4" name="nivel_de_dificultad" value="4" checked> Cuatro
+				</label>
+			</fieldset>
+
+		</form>
+
+		<br>
+
+		<a href="#"> <div id="guardar_partida"></div> </a>
+
+		<a href="tres_en_raya.html"> <div id="tres_en_raya"></div> </a>
+
+	</div>
+
+
+	
+</body>
+</html>

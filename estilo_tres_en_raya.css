@@ -1,0 +1,63 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px 0px;
+	background-repeat: no-repeat;
+	height: 1017px;
+	width: 100%;
+	
+}
+
+#div1 { grid-area: div_1; }
+#div2 { grid-area: div_2; }
+#div3 { grid-area: div_3; }
+#div4 { grid-area: div_4; }
+#div5 { grid-area: div_5; }
+#div6 { grid-area: div_6; }
+#div7 { grid-area: div_7; }
+#div8 { grid-area: div_8; }
+#div9 { grid-area: div_9; }
+
+#div_principal
+{
+	width: 640px;	
+	height: 694px;
+	display: grid;
+  	grid-template-areas:
+	'div_1 div_2 div_3'
+	'div_4 div_5 div_6'
+	'div_7 div_8 div_9';
+	grid-gap: 10px;  
+	padding: 10px;	
+	margin-top: 0px;	
+}
+
+.div_hijo
+{
+	width: 200px;
+	height: 200px;
+	background-image: url('imagenes/blanco.png');
+	background-repeat: no-repeat;	  
+}
+
+.mensajes_y_bontones
+{	
+	height: 106px;	
+	background-repeat: no-repeat;
+}
+
+#volver_a_jugar
+{
+	background-image: url('imagenes/volver_a_jugar.png');
+}
+
+#ajustes
+{
+	background-image: url('imagenes/ajustes.png');
+}
+
+

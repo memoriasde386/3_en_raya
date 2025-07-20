@@ -1,0 +1,70 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	width: 640px;	
+	height: 1067px;
+	margin: 0px 0px;
+	background-image: url('imagenes/giralda_blanca.jpg');
+	background-repeat: no-repeat;
+}
+
+#div_principal
+{
+	width: 640px;	
+	height: 1067px;
+}
+
+#formulario
+{	
+	margin-top: 16px;
+	width: 100%;
+	font-size: xx-large;
+}
+
+#guardar_partida
+{
+	margin-top: 15px;
+	width: 100%;
+	height: 272px;
+	background-image: url('imagenes/guardar_ajustes.png');
+}
+
+#tres_en_raya
+{
+	margin-top: 15px;
+	width: 100%;
+	height: 136px;
+	background-image: url('imagenes/tres_en_raya.png');
+}
+
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #0000ff;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
